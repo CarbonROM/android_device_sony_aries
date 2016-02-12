@@ -12,7 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/sony/shinano/PlatformConfig.mk
+include device/sony/shinano-common/PlatformConfig.mk
+include device/sony/shinano-common/PlatformConfigCarbon.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := D5803
 
