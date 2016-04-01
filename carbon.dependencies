@@ -31,12 +31,6 @@
   },
   {
     "remote": "gh",
-    "repository": "sonyxperiadev/mkqcdtbootimg",
-    "target_path": "hardware/sony/mkqcdtbootimg",
-    "revision": "master"
-  },
-  {
-    "remote": "gh",
     "repository": "sonyxperiadev/macaddrsetup",
     "target_path": "hardware/sony/macaddrsetup",
     "revision": "master"
@@ -61,9 +55,9 @@
   },
   {
     "remote": "gh",
-    "repository": "CarbonROM/android_hardware_qcom_camera",
+    "repository": "CarbonROM/android_hardware_sony_camera",
     "target_path": "hardware/sony/camera",
-    "revision": "cr-4.0-sony"
+    "revision": "cr-4.0"
   },
   {
     "remote": "gh",
