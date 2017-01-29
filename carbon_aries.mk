@@ -16,6 +16,8 @@
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
+
 # Inherit AOSP Shinano common device parts
 $(call inherit-product, device/sony/aries/aosp_d5803.mk)
 
