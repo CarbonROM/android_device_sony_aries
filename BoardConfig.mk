@@ -23,7 +23,7 @@ TARGET_BOOTLOADER_BOARD_NAME := D5803
 #Reserve space for data encryption (12656259072-16384)
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12656242688
 
-BOARD_KERNEL_CMDLINE += androidboot.hardware=aries
+BOARD_KERNEL_CMDLINE += androidboot.hardware=aries androidboot.bootdevice=msm_sdcc.1
 
 PRODUCT_VENDOR_KERNEL_HEADERS += $(DEVICE_PATH)/kernel-headers
 
